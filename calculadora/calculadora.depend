@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1459318996 source:c:\users\admiral\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"miLibreria.h"
+
+1459316611 c:\users\admiral\desktop\calculadora\milibreria.h
+
+1459316611 source:c:\users\admiral\desktop\calculadora\milibreria.c
+
+1459733082 source:c:\users\jesica\desktop\calculadora\milibreria.c
+
+1459733082 source:c:\users\jesica\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"miLibreria.h"
+
+1459727702 c:\users\jesica\desktop\calculadora\milibreria.h
+
+1459821949 source:c:\users\alumno\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"miLibreria.h"
+
+1459820564 c:\users\alumno\desktop\calculadora\milibreria.h
+
+1459820559 source:c:\users\alumno\desktop\calculadora\milibreria.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
+1460066574 source:c:\users\macarena\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"miLibreria.h"
+
+1459820566 c:\users\macarena\desktop\calculadora\milibreria.h
+
+1459820560 source:c:\users\macarena\desktop\calculadora\milibreria.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
