@@ -61,7 +61,7 @@ int main()
                 break;
             case 4:
                 system("cls");
-                CalcularRango(agenda);
+                Rangos(agenda);
                 break;
             case 5:
                 break;

@@ -13,8 +13,8 @@ typedef struct {
 
 }EPersona;
 void grafico(int x, int y, int z);
-int calcularMayor(int x,int y,int z);
-void CalcularRango(EPersona rango[]);
+int calcularMaximo(int x,int y,int z);
+void Rangos(EPersona agenda[]);
 void Iniciar(EPersona* agenda, int cantidad);
 int lugarLibre (EPersona agendaA[], int cantidad,int *indice);
 int lugarLibreDNI (EPersona agendaA[], int cantidad);

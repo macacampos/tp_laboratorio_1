@@ -95,7 +95,7 @@ void cargarPersona (EPersona agenda[],int indice)
     {
         printf("Ingrese edad: ");
         gets(auxiliar);
-        if(validaNumero(auxiliar)&& atoi(auxiliar)>0 && atoi(auxiliar)<99)
+        if(validaNumero(auxiliar)&& atoi(auxiliar)>=0 && atoi(auxiliar)<=99)
         {
             flagDos=1;
             edad=atoi(auxiliar);
@@ -282,14 +282,14 @@ int getInt (void)
 void grafico(int x, int y, int z)
 {
     int i,j;
-    int mayor= calcularMayor(x,y,z);
-    int vector[]={x,y,z};
+    int mayor= calcularMaximo(x,y, z);
+    int graf[]={x,y,z};
     char matriz[mayor][3];
     for(j=0;j < mayor;j++)
     {
         for(i=0;i < 3;i++)
         {
-            if(vector[i]>j)
+            if(graf[i]>j)
             {
                 matriz[j][i]='*';
             }
@@ -314,27 +314,27 @@ void grafico(int x, int y, int z)
  * \return No retorna nada.
  *
  */
-void CalcularRango(EPersona rango[])
+void Rangos(EPersona agenda[])
 {
     int i;
     int x=0;
     int y=0;
     int z=0;
 
-    for(i=0;i<=20 && rango[i].estado==1;i++)
+    for(i=0;i <=20 && agenda[i].estado==1;i++)
     {
         fflush(stdin);
-        if(rango[i].edad<18)
+        if(agenda[i].edad<18)
         {
             x++;
         }
 
-        if(rango[i].edad>18 && rango[i].edad<=35)
+        if(agenda[i].edad>18 && agenda[i].edad<=35)
         {
             y++;
         }
 
-        if(rango[i].edad>35)
+        if(agenda[i].edad>35)
         {
             z++;
         }
@@ -343,33 +343,33 @@ void CalcularRango(EPersona rango[])
 }
 
 
-/** \brief Recibe 3 numeros entero y calcula el mayor de los tres
+/** \brief Recibe 3 numeros y calcula el mayor
  *
- * \param  int x es un entero a evaluar.
- * \param  int y es un entero a evaluar.
- * \param  int z es un entero a evaluar.
+ * \param  int x numero a evaluar
+ * \param  int y numero a evaluar
+ * \param  int z numero a evaluar
  * \return retorna el mayor.
  *
  */
-int calcularMayor(int x,int y,int z)
+int calcularMaximo(int x,int y,int z)
 {
-    int mayor;
+    int Maximo;
     if(x>y && x>z)
     {
-        mayor=x;
+        Maximo=x;
     }
     else
     {
         if(y>x && y>=z)
         {
-            mayor=y;
+            Maximo=y;
         }
         else
         {
-            mayor=z;
+            Maximo=z;
         }
     }
-    return mayor;
+    return Maximo;
 }
 
 
