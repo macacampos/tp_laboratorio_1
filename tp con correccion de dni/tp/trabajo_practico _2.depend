@@ -1,0 +1,151 @@
+# depslib dependency file v1.0
+1461523105 source:c:\users\mji\desktop\trabajo_practico _2\funciones.c
+
+1461538171 source:c:\users\mji\desktop\trabajo_practico _2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1461523085 c:\users\mji\desktop\trabajo_practico _2\funciones.h
+
+1461873268 source:f:\trabajo_practico _2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1461873292 source:f:\trabajo_practico _2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1461873260 f:\trabajo_practico _2\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1461873292 source:c:\users\mji\desktop\,kk4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1461873260 c:\users\mji\desktop\,kk4\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1461873944 source:c:\users\mji\desktop\,kk4\funciones.c
+	"funciones.h"
+
+1461960473 source:c:\users\mauro\desktop\tpmaca\maca gato barato\funciones.c
+	"funciones.h"
+
+1461959958 c:\users\mauro\desktop\tpmaca\maca gato barato\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1461959990 source:c:\users\mauro\desktop\tpmaca\maca gato barato\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1461961891 source:c:\users\macarena\desktop\tpmaca\maca gato barato\funciones.c
+	"funciones.h"
+
+1461961954 c:\users\macarena\desktop\tpmaca\maca gato barato\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1461962132 source:c:\users\macarena\desktop\tpmaca\maca gato barato\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1461963482 source:c:\users\macarena\desktop\tpmaca\tp2\funciones.c
+	"funciones.h"
+
+1461961954 c:\users\macarena\desktop\tpmaca\tp2\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1461962132 source:c:\users\macarena\desktop\tpmaca\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1461972856 source:c:\users\admiral\desktop\tpmaca\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1461972653 c:\users\admiral\desktop\tpmaca\tp2\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1461972780 source:c:\users\admiral\desktop\tpmaca\tp2\funciones.c
+	"funciones.h"
+
+1461973093 source:c:\users\admiral\desktop\tp2.rar\funciones.c
+	"funciones.h"
+
+1461972653 c:\users\admiral\desktop\tp2.rar\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1461975207 source:c:\users\admiral\desktop\tp2\funciones.c
+	"funciones.h"
+
+1461975265 c:\users\admiral\desktop\tp2\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1463599718 source:c:\users\admiral\desktop\tp\funciones.c
+	"funciones.h"
+
+1463599093 c:\users\admiral\desktop\tp\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1463599111 source:c:\users\admiral\desktop\tp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1463414610 source:c:\users\admiral\desktop\tp con correccion de dni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1461981964 c:\users\admiral\desktop\tp con correccion de dni\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
