@@ -28,5 +28,4 @@ unsigned int ValidaSeguirSoN(char mensajeError[]);
 void LeerBinario(EMovie *peliculas, int cantidad);
 void GuardarBinario(EMovie *peliculas, int cantidad);
 void generarPagina(EMovie peliculas[], int cantidad);
-void precargada(EMovie peliculas[]);
 

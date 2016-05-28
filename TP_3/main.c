@@ -20,7 +20,6 @@ int main()
 
     iniciar(peliculas,TAM);
     LeerBinario(peliculas,TAM);
-    precargada(peliculas);
 
     do
     {

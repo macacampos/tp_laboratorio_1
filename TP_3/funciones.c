@@ -489,26 +489,4 @@ void generarPagina(EMovie peliculas[], int cantidad)
     printf("\n\n archivo escrito con exito\n\n");
 
 }
-/** \brief peliculas ya cargadas en el html
- *
- * \param peliculas[] EMovie
- * \return void
- *
- */
-void precargada(EMovie peliculas[])
-{
-    strcpy(peliculas[0].titulo, "\nLos juegos del hambre\n");
-    strcpy(peliculas[0].genero, "\nCiencia ficcion\n");
-    peliculas[0].duracion=142;
-    strcpy(peliculas[0].descripcion, "La nacion de Panem salio de las ruinas de lo que una vez fue conocido como Norte America. <br> Hace 74 anios, los distritos afectados por la pobreza en Panem se rebelaron en contra de la riqueza que controla el Capitolio. <br> Despues de su aplastante victoria, el Capitolio ideo  Cada anio,cada distrito debe llevar a cabo una rifa (conocida como la cosecha) <br> para elegir un hombre y una mujer (con edades desde los 12 hasta los 18 anios) para participar en Los Juegos del Hambre, <br> una competicion en la que cada uno de los 24 participantes (conocidos como tributos) pelearan a muerte en una arena televisada hasta que solo uno quede vivo.<br> Sin embargo esto es simplemente un recordatorio anual a los doce distritos de su autoridad y como castigo por la rebelion hecha hace 74 anios.");
-    peliculas[0].puntaje=10;
-    strcpy(peliculas[0].linkImagen,"http://ia.media-imdb.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
-    peliculas[0].estado=1;
-    strcpy(peliculas[1].titulo,"\nThe mazze runner\n");
-    strcpy(peliculas[1].genero, "\nCiencia ficcion\n");
-    peliculas[1].duracion=113;
-    strcpy(peliculas[1].descripcion, "Un dia Thomas despierta sin ningun recuerdo, atrapado en un extranio lugar; un lugar donde <br>hay mas jovenes como el que se encuentran en la misma condicion: no recuerdan nada y solo tienen una pista: la organizacion CRUEL. <br>En dicho lugar, hay un gran laberinto, por el que podrian escapar antes de que sus puertas se cierren y acabe con sus vidas, <br>para lograr huir tendran que ir juntando las pistas que hay en ese laberinto. Thomas y los demas chicos, tiene la esperanza de <br>descubrir lo que hay detras de ese enigma y quien los ha puesto ahi, con que motivo. Escapar y descubrirlo, no sera nada facil.");
-    peliculas[1].puntaje=10;
-    strcpy(peliculas[1].linkImagen, "http://ia.media-imdb.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_UX182_CR0,0,182,268_AL_.jpg");
-    peliculas[1].estado=1;
-}
+
